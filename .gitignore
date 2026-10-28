@@ -1,0 +1,38 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# React / Vite
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploaded resumes
+uploads/*
+!uploads/.gitkeep
+
+# Logs
+*.log
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
